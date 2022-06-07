@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-block: 2rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e0f5;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  padding: 1rem;
+  width: 20rem;
+  margin-inline: auto;
+  background-color: #e0e0f5;
+  margin-block: 5.75rem;
+  border-radius: 0.45rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  height: 30px;
+  width: 90%;
+  border-radius: 0.2rem;
+  outline: none;
+  padding-left: 0.55rem;
+  border: none;
+  margin-bottom: 0.45rem;
+}
+
+input[type="submit"] {
+  width: 90%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.btnWrapper{
+  width: 30rem;
+  margin-block: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.btnWrapper button{
+  padding: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #e0e0f5;
+  border-radius: 0.2rem;
+}
